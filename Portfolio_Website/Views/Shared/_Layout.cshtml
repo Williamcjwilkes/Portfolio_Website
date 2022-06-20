@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+< lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Portfolio </title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;600&family=Lato:wght@100;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--  NAVBAR   -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">WilliamCharlesJefferyWilkes.Net</a>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light text-muted" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light text-muted" asp-area="" asp-controller="Home" asp-action="About">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light text-muted" asp-area="" asp-controller="Home" asp-action="Portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light text-muted" asp-area="" asp-controller="Home" asp-action="ContactMe">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-11">
+                <!-- container -->
+                <div class="container-fluid mx-auto">
+                    @RenderBody()
+                </div>
+            </div>
+            <!--
+            <div class="col-1">
+                <div class="container-fluid padding-socials">
+                    <div class="social-icons">
+                        <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
+                            <a class="btn btn-floating  m-1 " href="https://github.com/Williamcjwilkes" role="button"><img src="~/Icons/github.svg" alt="Github logo" width="50" height="50"></a>
+                            <a class="btn btn-floating  m-1 " href="https://twitter.com/williamcjwilkes" role="button"><img src="~/Icons/twitter.svg" alt="Twitter logo" width="50" height="50"></a>
+                            <a class="btn btn-floating  m-1 " href="https://www.linkedin.com/in/william-wilkes-36a62013b/" role="button"><img src="~/Icons/linkedin.svg" alt="Linkedin logo" width="50" height="50"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                -->
+        </div>
+    </div>
+    <footer class="text-center text-lg-start fixed-bottom footerClass">
+        <!-- Copyright -->
+        <div class="text-center padding-footer">
+            <h4 class="footer-text">© 2022 Copyright: <a class="footer-text" href="index.html">WilliamCharlesJefferyWilkes.net</a></h4>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>

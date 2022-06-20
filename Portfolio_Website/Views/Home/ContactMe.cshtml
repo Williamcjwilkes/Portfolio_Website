@@ -1,0 +1,48 @@
+﻿@page
+@model port_website.Views.Home.ContactMeModel
+
+
+<div class="container-fluid mx-auto form-padding">
+    <h1>Contact me</h1>
+    <div class="row">
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="" method="">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="name" class="">Your name</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="email" class="">Your email</label>
+                            <input type="text" id="email" name="email" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <label for="message" class="">Message</label>
+                            <textarea type="text" id="message" name="message" rows="1" class="form-control md-textarea"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="text-center text-md-left">
+                            <a class="btn buttonfont" onclick="document.getElementById('contact-form').submit();">Send</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,128 @@
+﻿* {
+    font-family: 'Lato', sans-serif;
+    color: rgb(51, 51, 51);
+}
+    *:focus {
+        outline: none !important;
+    }
+.navbar, .navbar-nav {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.navbar {
+    height: 10vh !important;
+}
+
+    .navbar .navbar-nav .nav-item .nav-link, .navbar .navbar-brand {
+        color: rgb(51, 51, 51);
+        font-size: 2rem;
+    }
+
+        .navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-brand:hover {
+            text-decoration-style: solid !important;
+            border-bottom: 1px solid rgb(42, 216, 132) !important;
+            color: rgb(51, 51, 51)!important;
+        }
+
+.index {
+    padding-top: 35vh;
+    height: 80vh !important;
+}
+
+h1 {
+    font-size: 7rem;
+    font-weight: 100;
+}
+p{
+    font-weight:300;
+    font-size:1.5rem;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+label {
+    font-weight: 100;
+    font-size: 2rem;
+}
+.about-cont{
+    width:80%!important;
+    padding-top:30vh!important
+}
+.footerClass {
+    height: 10vh !important;
+    background-color: rgb(42, 216, 132) !important;
+}
+
+.padding-footer {
+    padding-top: 3vh !important;
+}
+
+.footer-text {
+    color: rgb(255, 255, 255) !important;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.padding-socials {
+    padding-top: 40vh;
+    padding-left: 90%;
+    color: none;
+}
+
+
+
+.form-padding {
+    padding-top: 10vh;
+    padding-left: 5vw;
+    height: 80vh !important;
+}
+
+input, textarea{
+    width: 80%;
+    border: none !important;
+    border-bottom: 1px solid rgb(42, 216, 132) !important;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size:1.2rem;
+}
+
+::placeholder { 
+    color: red;
+    opacity: 1; 
+}
+
+:-ms-input-placeholder { 
+    color: red;
+}
+
+
+.btn {
+    transition-duration: 0.4s !important;
+    background-color: white !important;
+    border: 1px solid rgb(42, 216, 132) !important;
+    width: 100% !important;
+    height: auto !important;
+    padding: 0px;
+    margin-top: 30px !important;
+    font-size:2rem!important;
+    font-weight:100;
+}
+
+
+    .btn:hover {
+        background-color: rgb(42, 216, 132) !important; 
+        color: white !important;
+        outline: rgb(42, 216, 132) !important;
+        font-weight:300;
+    }
